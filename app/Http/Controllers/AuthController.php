@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Sneakers4All\Http\Controllers;
 
 use Illuminate\Http\Request;
 

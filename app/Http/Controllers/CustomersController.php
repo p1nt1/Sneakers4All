@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Sneakers4All\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Customer;
+use Sneakers4All\Customer;
 
-use App\Http\Requests\CreateCustomerRequest;
+use Sneakers4All\Http\Requests\CreateCustomerRequest;
 
 class CustomersController extends Controller
 {

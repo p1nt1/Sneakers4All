@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Sneakers4All;
 
 use Tymon\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Notifications\Notifiable;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Sneakers4All;
 
 use Illuminate\Database\Eloquent\Model;
 

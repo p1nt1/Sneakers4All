@@ -1,6 +1,6 @@
 <template>
    <div class="row justify-content-center">
-      <div class="col-md-8">
+      <div class="col-md-4">
          <form class="text-center border border-light p-5" @submit.prevent="register">
 
             <p class="h4 mb-4">Register</p>
@@ -27,7 +27,9 @@
                <div class="col">
                   <select name="city" v-model="form.idCity" class="form-control">
                      <option value="0" disabled selected>Select your city</option>
-                     <option value="1">UMF Iasi</option>
+                     <option value="1">Cluj-Napoca</option>
+                     <option value="2">Suceava</option>
+
                   </select>
                </div>
             </div>
@@ -73,9 +75,9 @@
         data() {
             return{
                 form: {
-                    name: 'Iliuta',
-                    email: 'iliuta@test.com',
-                    phone: '0715929003',
+                    name: 'Alexandru',
+                    email: 'alex@test.com',
+                    phone: '0747667378',
                     idCity: 1,
                     idCollege: 1,
                     password: '123456',

@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Sneakers4All\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use Sneakers4All\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 
 class ResetPasswordController extends Controller

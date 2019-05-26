@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Requests;
+namespace Sneakers4All\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

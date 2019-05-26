@@ -51899,6 +51899,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
 
 
 
@@ -51906,9 +51908,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             form: {
-                name: 'Iliuta',
-                email: 'iliuta@test.com',
-                phone: '0715929003',
+                name: 'Alexandru',
+                email: 'alex@test.com',
+                phone: '0747667378',
                 idCity: 1,
                 idCollege: 1,
                 password: '123456',
@@ -51946,7 +51948,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "row justify-content-center" }, [
-    _c("div", { staticClass: "col-md-8" }, [
+    _c("div", { staticClass: "col-md-4" }, [
       _c(
         "form",
         {
@@ -52085,7 +52087,11 @@ var render = function() {
                     [_vm._v("Select your city")]
                   ),
                   _vm._v(" "),
-                  _c("option", { attrs: { value: "1" } }, [_vm._v("UMF Iasi")])
+                  _c("option", { attrs: { value: "1" } }, [
+                    _vm._v("Cluj-Napoca")
+                  ]),
+                  _vm._v(" "),
+                  _c("option", { attrs: { value: "2" } }, [_vm._v("Suceava")])
                 ]
               )
             ])
@@ -57080,7 +57086,7 @@ var render = function() {
           _c(
             "router-link",
             { staticClass: "navbar-brand", attrs: { to: "/" } },
-            [_vm._v("My Vue App")]
+            [_vm._v("Sneakers4All")]
           ),
           _vm._v(" "),
           _vm._m(0),

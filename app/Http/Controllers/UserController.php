@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Sneakers4All\Http\Controllers;
 
-use App\Http\Controllers\Auth\ForgotPasswordController;
-use App\Mail\ForgotPasswordMail;
-use App\User;
+use Sneakers4All\Http\Controllers\Auth\ForgotPasswordController;
+use Sneakers4All\Mail\ForgotPasswordMail;
+use Sneakers4All\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
